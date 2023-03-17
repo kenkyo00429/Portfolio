@@ -1,0 +1,93 @@
+@font-face {
+	font-family: 'MyFontBold';
+	src: url('Fonts/FreeSansBold.ttf');
+}
+
+body{
+ width:900px;
+ margin:0 auto;
+ background-color:white;
+ color: black;
+}
+
+header{
+padding:16em 0;
+}
+
+.ip{
+padding-top:16em;
+padding-bottom: 8.5em;
+}
+
+span{
+text-decoration: underline dashed black;
+} 
+
+a {
+text-decoration: none;
+color: black;	
+}
+
+.p1{
+font-size: 35px;
+font-family: 'MyFontBold';
+}
+.p2{
+margin-top: -10px;
+font-size: 16px;
+font-family: 'Courier Prime', monospace;
+width: 50%;
+}
+
+.bt img{
+width: 850px;
+height:auto;
+}
+
+.bt{
+ display: block;
+ position:relative;
+ margin-bottom: 40px;
+}
+
+.mask{
+ position:absolute;
+ top: 0;
+ background-color: rgba(0,0,0,0.4);
+ width:800px;
+ height: 98.5%;
+ opacity: 0;
+ -webkit-transition:all 0.5s ease;
+ transition:all 0.5s ease;
+}
+
+.mask p{
+color: white;
+padding-top: 150px;
+font-family: 'Courier Prime', monospace;
+}
+
+.bt:hover .mask{
+ opacity: 1;
+ padding-left: 50px;
+}
+
+.sm{
+display: inline-block;
+padding-bottom: 50px;
+}
+
+.sm p{
+float: left;
+width: 40%;
+margin-top:80px;
+line-height:30px;
+font-size: 13px;
+padding:0 10px;
+}
+
+.sm img{
+float: left;
+width: 40%;
+padding:0 10px;
+}
