@@ -78,9 +78,8 @@ padding-bottom: 50px;
 }
 
 .sm p{
-float: left;
+float: right;
 width: 40%;
-margin-top:20px;
 line-height:30px;
 font-size: 13px;
 padding:0 10px;
